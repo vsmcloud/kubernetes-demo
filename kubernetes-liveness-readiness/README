@@ -1,0 +1,9 @@
+1. kubectl create -f pod-deployment.yaml
+2. kubectl get pod
+3. kubectl create -f probe-service.yaml
+4. kubectl get svc
+5. kubectl delete -f pod-deployment.yaml
+6. kubectl get pod
+7. kubectl create pod-liveness-deployment.yaml
+8. kubectl create pod-readiness-deplyment.yaml
+9. kubectl create pod-live-readiness-deployment.yaml
